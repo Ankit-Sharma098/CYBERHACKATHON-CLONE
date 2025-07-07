@@ -1,0 +1,106 @@
+.collection-box {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin-top: 76px;
+    backdrop-filter: blur(8px);
+    background: #0006;
+    border-radius: 16px;
+    box-shadow: 0 10px 40px #00d4ff33;
+    padding-bottom: 280px;
+    position: relative;
+    transition: all .3s ease-in-out;
+    width: 650px;
+    height: 200px;
+    z-index: 10;
+    color: white;
+}
+
+.box-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-box,
+.right-box {
+    margin: 25px;
+}
+
+.logo-left-box,
+.logo-right-box {
+    background-color: white;
+    border-radius: 5px;
+    height: 85px;
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.box-3 {
+    background-color: #00d4ff33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.box-4 {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.present{
+    font-size: 45px;
+    color:aqua;
+}
+.cyber{
+    font-size:45px;
+}
+.apply{
+   animation: glowButton 4s linear infinite;
+    background: linear-gradient(90deg, #00ffe0, #ff00e0, #00ffe0);
+    background-size: 200% auto;
+    border-radius: 50px;
+    box-shadow: 0 0 15px #00ffe0, 0 0 30px #ff00e0, 0 0 45px #00ffe0;
+    color: #fff;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-top: 5px;
+    padding: 14px 32px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+.apply:hover{
+    text-decoration:underline ;
+}
+.paragraph-about{
+    display: flex;
+    flex-direction: row;
+    column-gap: 150px;
+}
+.about-image{
+    height: 400px;
+}
+.text-about{
+    background-color: rgba(9, 64, 175, 0.463);
+    font-size: 25px;
+    text-align: center;
+}
+
+@media (max-width:455px){
+   .section-2{
+    background-color: cyan;
+   }
+}
